@@ -80,6 +80,7 @@ p {
   line-height: 1.7;
   text-align: left;
   font-family: 'Black Ops One', sans-serif;
+  padding: 20px;
 }
 
 @media (max-width: 600px) {

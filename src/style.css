@@ -32,6 +32,10 @@ h1 {
 
 p {
   font-family: 'Black Ops One', sans-serif;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 @media (max-width: 600px) {

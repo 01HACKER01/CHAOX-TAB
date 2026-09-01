@@ -1,5 +1,6 @@
 * body {
   margin: 0;
+  padding: 2rem 0;
   min-height: 100vh;
   position: relative;
   background: #100224;
@@ -26,16 +27,33 @@ body::after {
   clip-path: polygon(100% 0, 0 0, 15% 2.5%, 0 5%, 15% 7.5%, 0 10%, 15% 12.5%, 0 15%, 15% 17.5%, 0 20%, 15% 22.5%, 0 25%, 15% 27.5%, 0 30%, 15% 32.5%, 0 35%, 15% 37.5%, 0 40%, 15% 42.5%, 0 45%, 15% 47.5%, 0 50%, 15% 52.5%, 0 55%, 15% 57.5%, 0 60%, 15% 62.5%, 0 65%, 15% 67.5%, 0 70%, 15% 72.5%, 0 75%, 15% 77.5%, 0 80%, 15% 82.5%, 0 85%, 15% 87.5%, 0 90%, 15% 92.5%, 0 95%, 15% 97.5%, 0 100%, 100% 100%);
 }
 
+#app {
+
+  margin: 0 auto;
+  padding: 0.24em;
+  text-align: center;
+}
 h1 {
   font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #e1d7f1;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+img, video {
+  max-width: 100%;
+  margin: 1rem 0;
 }
 
 p {
   font-family: 'Black Ops One', sans-serif;
-  padding: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 0.95rem;
+  color: #e1d7f1;
+  line-height: 1.7;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
@@ -44,4 +62,7 @@ p {
     display: none;
   }
 
+  #app {
+    padding: 1rem;
+  }
 }

@@ -13,7 +13,7 @@ body::after {
   position: fixed;
   width: 80%;
   height: 100%;
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: #986aa5;
   z-index: -1;
 }
 

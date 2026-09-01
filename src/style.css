@@ -168,6 +168,7 @@ form button:hover {
   cursor: pointer;
   background: #986aa5;
   color: white;
+  align-self: center;
 }
 
 .button:hover {
